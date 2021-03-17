@@ -5,6 +5,8 @@ import javafx.collections.ObservableList;
 import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.layout.GridPane;
+import javafx.scene.paint.Paint;
+import javafx.scene.shape.Ellipse;
 import javafx.stage.Stage;
 
 public class ExampleLogicImpl implements ExampleLogic {
@@ -58,8 +60,32 @@ public class ExampleLogicImpl implements ExampleLogic {
 
 		for (int i = 0; i < cells.length; i++) {
 			for (int j = 0; j < cells[i].length; j++) {
-				grid.add( i,j);
+				Ellipse ellipse = new Ellipse(5, 5);
+				ellipse.setFill(Paint.valueOf(calcPaintForEllipse(cells[i][j])));
+				grid.add(ellipse, i, j);
 			}
 		}
+	}
+
+	private String calcPaintForEllipse(int i) {
+
+		String result = "";
+
+		switch (i) {
+		case 0:
+			result = "#F00";
+			break;
+		case 1:
+			result = "#0F0";
+			break;
+		case 2:
+			result = "#00F";
+			break;
+		default:
+			result = "#000";
+			break;
+		}
+
+		return result;
 	}
 }

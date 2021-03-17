@@ -1,10 +1,11 @@
 package by.kolbun.examples;
 
-import by.kolbun.examples.logic.ExampleLogic;
-import by.kolbun.examples.logic.impl.ExampleLogicImpl;
+import by.kolbun.examples.render.ExampleRender;
+import by.kolbun.examples.render.impl.ExampleRenderImpl;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
 public class ButtonController {
@@ -15,11 +16,15 @@ public class ButtonController {
 	@FXML
 	public Button exitButton;
 
+	@FXML
+	public GridPane grid;
+
 	/*   */
 
-	private final ExampleLogic exampleLogic = new ExampleLogicImpl();
+	private final ExampleRender exampleRender = new ExampleRenderImpl();
 
-	@FXML
+
+  @FXML
 	public void clickExit() {
 
 		System.out.println("exit");
@@ -32,7 +37,7 @@ public class ButtonController {
 
 		System.out.println("start");
 
-		exampleLogic.execute(startButton.getScene().getWindow());
+		exampleRender.execute(grid);
 	}
 
 }

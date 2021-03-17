@@ -1,7 +1,12 @@
 package by.kolbun.examples.logic;
 
-public interface ExampleLogic {
+import by.kolbun.examples.model.MObject;
 
-	void execute(Object obj);
+import java.util.List;
 
+public interface ExampleLogic extends Logic {
+
+  void init(List<MObject> list);
+
+  void step();
 }

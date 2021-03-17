@@ -16,72 +16,72 @@
         <children>
             <GridPane gridLinesVisible="true" maxWidth="550.0" HBox.hgrow="NEVER" fx:id="grid">
                 <columnConstraints>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
-                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
+                    <ColumnConstraints hgrow="NEVER" maxWidth="16.0" minWidth="16.0" prefWidth="16.0" halignment="CENTER"/>
                 </columnConstraints>
                 <rowConstraints>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
-                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
+                    <RowConstraints maxHeight="16.0" minHeight="16.0" prefHeight="16.0" vgrow="NEVER" valignment="CENTER"/>
                 </rowConstraints>
                 <padding>
                     <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>

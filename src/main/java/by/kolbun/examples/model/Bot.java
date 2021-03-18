@@ -14,12 +14,16 @@ public class Bot extends MObject {
   private final Ellipse face = new Ellipse(5, 5);
 
   {
-    face.setFill(Paint.valueOf("#FF4444"));
+    face.setFill(Paint.valueOf("#00F"));
   }
 
-  public Bot(Position pos, List<Command> commands) {
+  public Bot(int x, int y, List<Command> commands) {
+    this(new Position(x, y), commands);
+  }
+
+  private Bot(Position pos, List<Command> commands) {
     super(pos, MObjectType.BOT);
-    this.algo = new Algo(commands);
+    this.algo = new Algo(this, commands);
   }
 
   public void act() {

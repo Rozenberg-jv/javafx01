@@ -10,34 +10,35 @@ import javafx.stage.Stage;
 
 public class ButtonController {
 
-	@FXML
-	public Button startButton;
+  @FXML
+  public Button startButton;
 
-	@FXML
-	public Button exitButton;
+  @FXML
+  public Button exitButton;
 
-	@FXML
-	public GridPane grid;
+  @FXML
+  public GridPane grid;
 
-	/*   */
+  /*   */
 
-	private final ExampleRender exampleRender = new ExampleRenderImpl();
+  private final ExampleRender exampleRender = new ExampleRenderImpl();
 
 
   @FXML
-	public void clickExit() {
+  public void clickExit() {
 
-		System.out.println("exit");
-		Stage stageOnClose = (Stage) exitButton.getScene().getWindow();
-		stageOnClose.close();
-	}
+    ExampleRenderImpl.stop = true;
+    System.out.println("exit");
+    Stage stageOnClose = (Stage) exitButton.getScene().getWindow();
+    stageOnClose.close();
+  }
 
-	@FXML
-	public void clickStart(MouseEvent event) {
+  @FXML
+  public void clickStart(MouseEvent event) {
 
-		System.out.println("start");
+    System.out.println("start");
 
-		exampleRender.execute(grid);
-	}
+    exampleRender.execute(grid);
+  }
 
 }

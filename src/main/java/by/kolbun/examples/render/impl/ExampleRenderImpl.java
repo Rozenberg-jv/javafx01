@@ -193,7 +193,7 @@ public class ExampleRenderImpl implements ExampleRender {
         result = "#0F0";
         break;
       case 4:
-        result = "#444";
+        result = "#A0A0A0";
         break;
       default:
         result = "#FFF";

@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="by.kolbun.examples.ButtonController">
+<AnchorPane xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="by.kolbun.examples.MainController">
     <HBox prefWidth="800.0">
         <children>
             <GridPane gridLinesVisible="true" maxWidth="550.0" HBox.hgrow="NEVER" fx:id="grid">
@@ -98,8 +98,8 @@
                         <Font size="14.0"/>
                     </font>
                 </Button>
-                <Button alignment="CENTER" maxHeight="50.0" maxWidth="180.0" minHeight="50.0" minWidth="180.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="180.0"
-                        text="Button" textAlignment="CENTER">
+                <Button fx:id="middleButton" alignment="CENTER" maxHeight="50.0" maxWidth="180.0" minHeight="50.0" minWidth="180.0" mnemonicParsing="false" prefHeight="50.0"
+                        onMouseClicked="#clickMiddle" prefWidth="180.0" text="Button" textAlignment="CENTER">
                     <font>
                         <Font size="14.0"/>
                     </font>
